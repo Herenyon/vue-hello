@@ -2,12 +2,13 @@
 
 const { createApp } = Vue
 
-    createApp({
-        data(){
-            return {
-             titoloBig: 'Questo è il messaggio'
-            }
+createApp({
+    data() {
+        return {
+            titoloBig: 'Questo è il messaggio',
+            immagine: 'https://picsum.photos/200'
         }
-    }).mount('#titolo');
+    }
+}).mount('#app');
 
-    const titoloBig = 'Messaggione Titolone';
+    // const titoloBig = 'Messaggione Titolone';
